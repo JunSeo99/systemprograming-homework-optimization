@@ -51,7 +51,7 @@ void efficiency_test_search() {
     // 데이터 정렬 (이진 탐색용)
     qsort(arr, ARRAY_SIZE, sizeof(int), compare_int);
 
-    int target = arr[ARRAY_SIZE / 2];  // 탐색 대상 (중앙값)
+    int target = arr[rand() % ARRAY_SIZE]; 
     struct timespec start, end;
 
     // 순차 탐색
