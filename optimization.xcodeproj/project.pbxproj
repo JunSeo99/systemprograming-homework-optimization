@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFD45E2D2D01D4C5006E29D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD45E2C2D01D4C5006E29D3 /* main.m */; };
+		BFD45E2D2D01D4C5006E29D3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BFD45E2C2D01D4C5006E29D3 /* main.c */; };
 		BFD45E312D01D4E0006E29D3 /* quick_sort.c in Sources */ = {isa = PBXBuildFile; fileRef = BFD45E122D01A503006E29D3 /* quick_sort.c */; };
 		BFD45E322D01D4E0006E29D3 /* matrix_multiply_index_optimized.c in Sources */ = {isa = PBXBuildFile; fileRef = BFD45E212D01C112006E29D3 /* matrix_multiply_index_optimized.c */; };
 		BFD45E332D01D4E0006E29D3 /* matrix_multiply_pointer.c in Sources */ = {isa = PBXBuildFile; fileRef = BFD45E242D01C4A8006E29D3 /* matrix_multiply_pointer.c */; };
@@ -39,7 +39,7 @@
 		BFD45E232D01C4A8006E29D3 /* matrix_multiply_pointer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix_multiply_pointer.h; sourceTree = "<group>"; };
 		BFD45E242D01C4A8006E29D3 /* matrix_multiply_pointer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = matrix_multiply_pointer.c; sourceTree = "<group>"; };
 		BFD45E2A2D01D4C5006E29D3 /* optimization */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = optimization; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFD45E2C2D01D4C5006E29D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD45E2C2D01D4C5006E29D3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		BFD45E2B2D01D4C5006E29D3 /* optimization */ = {
 			isa = PBXGroup;
 			children = (
-				BFD45E2C2D01D4C5006E29D3 /* main.m */,
+				BFD45E2C2D01D4C5006E29D3 /* main.c */,
 				BFD45E112D01A503006E29D3 /* quick_sort.h */,
 				BFD45E122D01A503006E29D3 /* quick_sort.c */,
 				BFD45E142D01A525006E29D3 /* quick_sort_with_for.h */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD45E2D2D01D4C5006E29D3 /* main.m in Sources */,
+				BFD45E2D2D01D4C5006E29D3 /* main.c in Sources */,
 				BFD45E352D01D4E0006E29D3 /* quick_sort_with_for.c in Sources */,
 				BFD45E342D01D4E0006E29D3 /* matrix_multiply_index.c in Sources */,
 				BFD45E312D01D4E0006E29D3 /* quick_sort.c in Sources */,
